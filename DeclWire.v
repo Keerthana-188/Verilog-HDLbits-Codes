@@ -10,7 +10,6 @@ module top_module(
     wire cd;
     assign ab = a&&b;
     assign cd = c&&d;
-    wire o; 
     assign out = ab|cd;
     assign out_n = ~out;
 
